@@ -19,9 +19,9 @@ screen = pygame.display.set_mode(size)
 pygame.display.set_caption("UG Spaceman dodging a falling planet")
 
 # 이미지 로드
-background_image = pygame.image.load("C:/Users/UG/Desktop/game/dong_game/background.png")
-character_image = pygame.image.load("C:/Users/UG/Desktop/game/dong_game/character.png")
-enemy_image = pygame.image.load("C:/Users/UG/Desktop/game/dong_game/enemy.png")
+background_image = pygame.image.load("background.png")
+character_image = pygame.image.load("character.png")
+enemy_image = pygame.image.load("enemy.png")
 
 # 시계 설정
 clock = pygame.time.Clock()
