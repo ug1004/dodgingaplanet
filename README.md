@@ -7,3 +7,12 @@ This is a simple game created using the Pygame library in Python. The game is ca
 The game window size is 400x400 pixels and it displays a background image, a character image, and an enemy image. The background image is fixed, while the character and enemy images move independently. The enemy image falls at a constant rate, and if it reaches the bottom of the screen without colliding with the character, a new enemy image is generated at a random x-coordinate at the top of the screen.
 
 The game ends if the character collides with an enemy image. Once the game is over, the Pygame window is closed.
+
+
+
+# 선행조건
+  - Pygame 라이브러리 설치
+```
+pip install pygame
+
+```
